@@ -7,13 +7,172 @@
     <link rel="stylesheet" href="./output.css">
 </head>
 <body>
-    <div class="top px-[50px] py-[20px] h-[10vh] bg-black flex justify-between">
-        <div class="bars lg:hidden"></div>
+    <div
+    class="nav px-[20px] lg:px-[100px] lg:py-[10px] h-[12vh] bg-white flex justify-between items-center"
+  >
+    <div class="logo w-[50%] lg:w-[20%] lg:h-[100%] bg-white">
+      <img
+        src="./Logo.png"
+        alt=""
+        class="w-[100%] h-[100%]"
+        data-aos="zoom-in"
+      />
     </div>
-    <nav class="navs"><nav/>
+    <div
+      class="navs w-[60%] h-[100%] py-[5px] bg-white hidden lg:flex justify-around"
+    >
+      <div
+        class="div w-[20%] h-[100%] bg-white text-start border-l-gray-800 border-r-[1px]"
+      >
+        <p class="text-[10px] mb-[5px]" data-aos="zoom-in">ВРЕМЯ РАБОТЫ</p>
+        <p class="font-bold text-[10px]" data-aos="zoom-in">
+          Пн-Вс 9:00-21:00
+        </p>
+      </div>
+      <div
+        class="div w-[20%] h-[100%] bg-white text-start border-l-gray-800 border-r-[1px]"
+      >
+        <p class="text-[10px] mb-[5px]" data-aos="zoom-in">EMAIL</p>
+        <p class="font-bold text-[9px]" data-aos="zoom-in">
+          info@it-komfort.ru
+        </p>
+      </div>
+      <div
+        class="div w-[20%] h-[100%] bg-white text-start border-l-gray-800 border-r-[1px]"
+      >
+        <p class="text-[10px] mb-[5px]" data-aos="zoom-in">МЕССЕНДЖЕРЫ</p>
+        <p class="font-bold text-[10px]" data-aos="zoom-in">+79128810296</p>
+      </div>
+      <div class="div w-[20%] h-[100%] bg-white text-start">
+        <p class="text-[10px] mb-[5px]" data-aos="zoom-in">ТЕЛЕФОН</p>
+        <p class="font-bold text-[9px]" data-aos="zoom-in">
+          +7(342)243-02-96
+        </p>
+      </div>
+    </div>
+    <div
+      class="bar w-[20%] h-[50%] lg:hidden bg-white flex justify-center items-center text-[30px]"
+    >
+      <i class="fa-solid fa-chevron-down bg-black" data-aos="zoom-in"></i>
+    </div>
+  </div>
     <section class="section1"></section>
     <section class="section2"></section>
     <section class="section3"></section>
-    <footer></footer>
+    <div class="mx-auto flex gap-[60px] mt-[70px] justify-between">
+      <ul class="hidden lg:flex lg:ga-[30px] lg:text-[30px] lg:gap-[60px]">
+        <li class="text-[#36895F] font-bold text-[30px]">Главная</li>
+        <li class="text-[20px]">Каталог</li>
+        <li class="text-[20px]">О нас</li>
+        <li class="text-[20px]">Новости</li>
+        <li class="text-[20px]">Партнеры</li>
+        <li class="text-[20px]">Контакты</li>
+      </ul>
+      <input
+        type="text"
+        placeholder="поиск по каталогу"
+        class="border w-[100%] pl-[30px] lg:w-[300px] rounded-[20px] bg-[#F3F3F3]"
+      />
+    </div>
+    <div class="w-[90%] m-auto mt-[20px]">
+      <img class="w-[100%]" src="./6.png" alt="" />
+    </div>
+    <h1 class="text-center text-[50px] mt-[70px] font-bold">Каталог товаров</h1>
+    <p class="text-center text-[20px]">
+      Небольшое описание блока <br />размеров в две строки
+    </p>
+    <div class="w-[90%] mt-[100px] mx-[auto] lg:flex justify-between">
+      <div class="lg:w-[32%] h-[300px] p-[30px] bg-[#00552F] rounded-[30px]">
+        <p class="text-[30px] text-[white] font-bold">
+          Свеклоуборочная <br />техника
+        </p>
+        <img class="lg:ml-[150px] -mt-[30px]" src="./7.png" alt="" />
+      </div>
+      <div
+        class="lg:w-[32%] h-[300px] p-[30px] mt-[60px] shadow-2xl shadow-[black] rounded-[30px]"
+      >
+        <p class="text-[30px] text-[#00552F] font-bold">
+          Картофелеуборочная <br />техника
+        </p>
+        <img class="lg:ml-[150px] -mt-[30px]" src="./7.png" alt="" />
+      </div>
+      <div
+        class="lg:w-[32%] h-[300px] mt-[60px] p-[30px] shadow-2xl shadow-[black] rounded-[30px]"
+      >
+        <p class="text-[30px] text-[#00552F] font-bold">
+          Транспортеры <br />MEDO
+        </p>
+        <img class="lg:ml-[150px] -mt-[30px]" src="./8.png" alt="" />
+      </div>
+    </div>
+    <div class="flex justify-center mt-[70px]">
+      <button
+        class="w-[250px] h-[60px] bg-[#00552F] rounded-[30px] text-white text-[18px]"
+      >
+        перейти в каталог
+      </button>
+    </div>
+    <h1 class="text-center text-[50px] mt-[70px] font-bold">О компании</h1>
+    <div class="w-[90%] m-auto mt-[50px]">
+      <p class="text-[22px]">
+        ООО «КД-ГРУПП» — это команда единомышленников и профессионалов в таких
+        направлениях, как сельскохозяйственная и специальная техника. Основной
+        состав компании сформирован из инженеров-производственников, которые не
+        по наслышке знают все трудности и проблемы, с которыми Вам приходится
+        сталкиваться в процессе работы с техникой. Мы всегда готовы прийти Вам
+        на помощь.
+        <br />
+        <br />
+        А также, наша компания предлагает к поставке прутковые транспортеры и
+        комплектующие собственного производства под брендом MEDO.
+В кратчайшие
+        сроки выполним заказ на изготовление транспортера для сельхозтехники по
+        уборке урожая овощных культур.
+Дополнительно, мы оказывает услуги по
+        восстановлению ваших б/у транспортёров с заменой всех ремней, пластинок,
+        заклёпок и замков.
+      </p>
+    </div>
+    <div class="flex justify-center mt-[100px]">
+      <img src="./9.png" alt="" />
+    </div>
+    <div class="lg:flex justify-between">
+      <img class="mt-[60px]" src="./10.png" alt="" />
+      <img class="mt-[60px]" src="./11.png" alt="" />
+      <img class="mt-[60px]" src="./12.png" alt="" />
+    </div>
+    <div class="main bg-[#141A20] text-white flex justify-around items-center py-[50px]">
+  
+        <div class="left">
+            <h2>Compny</h2>
+  
+            <img src="./projeco-logo.png" alt="" class="my-5">
+  
+            <p class="hidden md:block">Lorem ipsum dolor sit amet, consectetuer <br> adipiscing elit, sed diam nonummy nibh <br> euismod
+                tincidunt ut
+                laoreet dolore <br> magna aliquam erat.</p>
+        </div>
+  
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>services</li>
+            <li>Projects</li>
+            <li>Contact Us</li>
+        </ul>
+  
+        <ul class="hidden md:block">
+            <li>Faq</li>
+            <li>Terms</li>
+            <li>Careers</li>
+        </ul>
+  
+        <ul class="hidden md:block">
+            <li>Blog</li>
+            <li>Partners</li>
+            <li>News</li>
+        </ul>
+  
+    </div>
 </body>
 </html>
